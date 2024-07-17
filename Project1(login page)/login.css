@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+body{
+    background: url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.input-btn{
+    background: transparent;
+    color: #fff;
+}
+.input-btn:focus{
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.input-btn::placeholder{
+    color: #fff;
+}
